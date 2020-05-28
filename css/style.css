@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {margin:0;padding:0; font-family:san-serif;}
+li{list-style:none;}
+a{text-decoration:none;}
+
+.wrapper{background:url(../images/banner.jpg) no-repeat; background-size:cover; height:650px;}
+
+header{margin:0 auto; width:100%;}
+header h1{float:left; margin-left:50px; font-weight:bold; font-size:25px; margin-top:25px; color:#fff;}
+header a{float:right; margin-right:50px; margin-top:25px; color:#fff;}
+
+aection.banner {margin:0 auto; height:600px; width:auto;}
+section.banner p img{margin-top:160px; margin-right:110px;}
+section.banner h2{color:#fff; text-align:center; font-size:40px;}
+section.banner p{color:#fff; text-align:center; font-size:20px; padding-bottom:35px; }
+section.banner span a{margin:0 auto; display:block; width:178px; height:58px; border:2px solid #30c891; border-radius:30px; font-size:17px; color:#fff; text-align:center; line-height:54px; background-color:#30c891; font-weight:bold;}
+
+.one{background-color:#CCC; height:900px; position: relative; display: block; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div.oneDiv {padding-top:120px; position: relative; display: block; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div.oneDiv ul{width:90%; margin:0 auto; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div.oneDiv ul li{height:292px; background-color:#fff; width: 100%; margin: 0 auto; position: relative; display: inline-block; margin-bottom: 20px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div.oneDiv ul li img {width: 50%; float: left; height: 100%; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div.oneDiv ul li div {float: left; width: 50%; position: relative; height: 100%; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.one div.oneDiv ul li div h3 {color:#333; font-weight:bold; line-height:33px; font-size:23px; position: absolute; display: inline-block; left: 40px; right: 20px; top: 20px; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: center;}
+.one div.oneDiv ul li div p {color:#666; line-height:25px; font-size:14px; position: absolute; display: inline-block; left: 20px; right: 20px; top: 120px; -webkit-transition: all 0.3s; transition: all 0.3s; text-align: center;}
+.one div.oneDiv ul li div a {display:block; width:138px; height:38px; border:2px solid #30c891; border-radius:30px; font-size:15px; color:#30c891; text-align:center; line-height:34px; font-weight:bold; position: absolute; display: inline-block; width: 50%; left: 20px; right: 20px; left: 50%; margin-left: -25%; bottom: 20px;}
+.one div.oneDiv ul li.li_1 div {float: right}
+.one div.oneDiv ul li.li_2 img {float: right;}
+
+
+.two{height:800px; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div.twoDiv {width:auto; margin:0 auto; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div.twoDiv h2{text-align:center; margin-top:100px; font-size:38px; color:#333; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div.twoDiv p{text-align:center; font-size:17px; margin-top:30px; letter-spacing:1px; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div.twoDiv ul{width: 1200px; margin: 0 auto; margin-top:60px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div.twoDiv ul li img {}
+.two div.twoDiv ul li{float:left;margin:0 auto;width: 298px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div.twoDiv div.more{text-align:center; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.two div.twoDiv div.more a{width:200px; height:38px; border:2px solid #30c891; border-radius:30px; font-size:15px; color:#30c891; text-align:center; line-height:34px; margin-top:60px; font-weight:bold; display: inline-block; -webkit-transition: all 0.3s; transition: all 0.3s;}
+
+.three{height:500px; background:url(../images/pic11.jpg) no-repeat; background-size:cover; position: relative; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div{width:auto; margin:0 auto; position: relative; height: 100%; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div h2{color:#fff; padding-top:110px; font-size:38px; text-align:center; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div p{color:#fff; text-align:center;  padding-top:40px; font-size:19px; letter-spacing:-1px; font-weight:100; line-height:30px; -webkit-transition: all 0.3s; transition: all 0.3s;}
+.three div a{height: 38px; border: 2px solid #30c891; border-radius: 30px; font-size: 15px; color: #30c891; text-align: center; line-height: 34px; font-weight: bold; position: absolute; display: inline-block; width: 50%; right: 20px; left: 50%; margin-left: -25%; bottom: 100px;}
+
+.four{background-color:#282828; height:800px;}
+.four div{width:auto; margin:0 auto;}
+.four div h2{text-align:center; padding-top:120px; font-weight:bold; color:#fff; font-size:38px;}
+.four div p{text-align:center; padding-top:30px; color:#fff; font-size:19px;}
+fieldset{width:600px; margin:0 auto; border:0px; padding-top:34px;}
+.form {position:relative; margin-top:40px;}
+input[type=text] {border-radius:4px; margin-bottom:0px; color:#CCC; font-size:15px; width:280px;height:44px;}
+input[value="Full Name"] {padding-left:20px; float:left; margin-bottom:20px; background-color:#4C4C4C;}
+input[value="Email Address"] {padding-left:20px; float:right; background-color:#4C4C4C;}
+input[value="Your Message"] {padding-left:20px; background-color:#4C4C4C;}
+textarea {width:600px; height:150px; border-radius:4px; color:#CCC; font-size:15px; font-size:15px; padding-left:20px; padding-top:10px; background-color:#4C4C4C;}
+label {display:none;}
+legend {display:none;}
+.btn {margin:0 auto; magin-top:35px; text-align:center;}
+button[type=submit] {width:140px; height:46px; border-radius:6px; color:#fff; font-size:18px; text-align:center; margin-top:30px; border-radius:30px; background-color:#30c891;}
+button[type=reset] {border:2px bold #fff; width:140px; height:46px; border-radius:6px; color:#000000; font-size:18px; text-align:center; margin-top:30px; border-radius:30px;}
+
+@media screen and (max-width: 1400px) {
+    .two div.twoDiv ul {width: 1000px;}
+    .two div.twoDiv ul li {width: 247px; display: inline-table;}
+    .two div.twoDiv ul li img {width: 100%;}
+}
+
+@media screen and (max-width: 1100px) {
+    .two {padding-bottom: 100px; height: auto;}
+    .two div.twoDiv ul {width: 700px; margin-top: 60px;}
+    .two div.twoDiv ul li {width: 350px; display: inline-table;}
+    .two div.twoDiv ul li img {width: 100%;}
+}
+
+@media screen and (max-width: 950px) {
+    .one div.oneDiv ul li div h3 {font-size: 17px;}
+    .one div.oneDiv ul li div p {font-size: 12px;}
+    .two {display: grid;}
+    .two div.twoDiv ul {width: 500px;}
+    .two div.twoDiv ul li {width: 250px; display: inline-table;}
+    .two div.twoDiv ul li img {width: 100%;}
+    .one div.oneDiv ul li div a {height: 29px; line-height: 28px;}
+}
+
+
+
+
+
+
+
+
